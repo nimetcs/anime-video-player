@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>One Punch Man</title>
+    <link rel="stylesheet" href="/style.css" />
+</head>
+
+<body>
+    <main class="video-container">
+        <br />
+        <br />
+        <br />
+        <br />
+
+        <div id="controls">
+            <div class="btn" id="home"><a href="/index.html">HOME</a></div>
+            <div class="btn" id="trailer"></div>
+        </div>
+
+        <br>
+
+        <div id="video">
+                <iframe width="1000" height="500" src="https://www.youtube.com/embed/2JAElThbKrI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+        <br />
+
+        <div id="controls">
+            <div class="btn" id="ep1"></div>
+            <div class="btn" id="ep2"></div>
+            <div class="btn" id="ep3"></div>
+        </div>
+    </main>
+
+    <script>
+        var video = document.getElementById("video");
+
+        var trailer =
+            '<iframe width="1000" height="500" src="https://www.youtube.com/embed/2JAElThbKrI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+
+        var trailerbtn = document.getElementById("trailer");
+
+        trailerbtn.innerHTML = "TRAILER";
+
+        trailerbtn.onclick = function () {
+            video.innerHTML = trailer;
+        };
+
+        var ep1Vid =
+            '<iframe width="1000" height="500" src="https://www.youtube.com/embed/Opbg73MzpH0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+
+        var btn1 = document.getElementById("ep1");
+
+        btn1.innerHTML = "Episode 1";
+
+        btn1.onclick = function () {
+            video.innerHTML = ep1Vid;
+        };
+
+        var ep2Vid =
+            '<iframe width="1000" height="500" src="https://www.youtube.com/embed/2r5r4dQyi3w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+
+        var btn2 = document.getElementById("ep2");
+
+        btn2.innerHTML = "Episode 2";
+
+        btn2.onclick = function () {
+            video.innerHTML = ep2Vid;
+        };
+
+        var ep3Vid =
+            '<iframe width="1000" height="500" src="https://www.youtube.com/embed/29R8mJzdibk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+
+        var btn3 = document.getElementById("ep3");
+
+        btn3.innerHTML = "Episode 3";
+
+        btn3.onclick = function () {
+            video.innerHTML = ep3Vid;
+        };
+    </script>
+</body>
+
+</html>

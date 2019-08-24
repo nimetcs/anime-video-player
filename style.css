@@ -1,0 +1,148 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+/*     height: 100vh; */
+}
+
+.wrapper {
+  display: grid;
+  grid-template-rows: repeat(6, 200px);
+  grid-template-columns: 400px 400px 400px;
+
+  grid-gap: 4px;
+  background-color: #fff;
+  color: #444;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #444;
+  color: #fff;
+  border-radius: 4px;
+  padding: 20px;
+  font-size: 21px;
+  font-family: cursive;
+}
+
+a.container {
+  text-decoration: none;
+}
+
+#home a {
+  text-decoration: none;
+  color: white;
+}
+
+.fairy-tail {
+  height: 200px;
+  background: linear-gradient( rgba(20, 20, 20, 0.7), rgba(20, 20, 20, 0.7) ), url("https://cdn.myanimelist.net/s/common/uploaded_files/1445895128-41776e58dd69fc0f618a4eac7962d012.jpeg");
+  background-size: cover;
+}
+
+.fairy-tail:hover {
+  height: 200px;
+  background: linear-gradient(rgba(20, 20, 20, 0.1), rgba(20, 20, 20, 0.1)), url("https://cdn.myanimelist.net/s/common/uploaded_files/1445895128-41776e58dd69fc0f618a4eac7962d012.jpeg");
+  background-size: cover;
+}
+
+.my-hero-academia {
+  height: 200px;
+  background: linear-gradient(rgba(20, 20, 20, 0.7),rgba(20, 20, 20, 0.7)), url("https://wallpapercave.com/wp/wp1874038.png");
+  background-size: cover;
+}
+
+
+.my-hero-academia:hover {
+  height: 200px;
+  background: linear-gradient(rgba(20, 20, 20, 0.2), rgba(20, 20, 20, 0.2)), url("https://wallpapercave.com/wp/wp1874038.png");
+  background-size: cover;
+}
+
+
+.the-promised-neverland {
+  height: 200px;
+  background: linear-gradient(rgba(20, 20, 20, 0.7), rgba(20, 20, 20, 0.6)), url("https://wallpapercave.com/wp/wp3951101.png");
+  background-size: cover;
+}
+
+
+.the-promised-neverland:hover {
+  height: 200px;
+  background: linear-gradient(rgba(20, 20, 20, 0.2), rgba(20, 20, 20, 0.2)), url("https://wallpapercave.com/wp/wp3951101.png");
+  background-size: cover;
+}
+
+
+.yuri-on-ice {
+  height: 200px;
+  background: linear-gradient(rgba(20, 20, 20, 0.7), rgba(20, 20, 20, 0.7)), url("https://wallpapercave.com/wp/wp1871995.jpg");
+  background-size: cover;
+}
+
+
+.yuri-on-ice:hover {
+  height: 200px;
+  background: linear-gradient(rgba(20, 20, 20, 0.1), rgba(20, 20, 20, 0.1)), url("https://wallpapercave.com/wp/wp1871995.jpg");
+  background-size: cover;
+}
+
+.one-punch-man {
+  height: 200px;
+  background: linear-gradient(rgba(20, 20, 20, 0.7), rgba(20, 20, 20, 0.7)), url("https://i.ytimg.com/vi/IIjq8kFpnc0/maxresdefault.jpg");
+  background-size: cover;
+}
+
+
+.one-punch-man:hover {
+  height: 200px;
+  background: linear-gradient(rgba(20, 20, 20, 0.1), rgba(20, 20, 20, 0.1)), url("https://i.ytimg.com/vi/IIjq8kFpnc0/maxresdefault.jpg");
+  background-size: cover;
+}
+
+
+.fruits-basket {
+  height: 200px;
+  background: linear-gradient(rgba(20, 20, 20, 0.7), rgba(20, 20, 20, 0.7)), url("https://honeysanime.com/wp-content/uploads/2016/06/Fruits-Basket-wallpaper.jpg");
+  background-size: cover;
+}
+
+
+.fruits-basket:hover {
+  height: 200px;
+  background: linear-gradient(rgba(20, 20, 20, 0.1), rgba(20, 20, 20, 0.1)), url("https://honeysanime.com/wp-content/uploads/2016/06/Fruits-Basket-wallpaper.jpg");
+  background-size: cover;
+}
+
+
+
+
+
+
+.video-container {
+  text-align: center;
+}
+
+.btn {
+  background-color: #119DA4;
+  border: none;
+  border-radius: 40px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+
+
+
